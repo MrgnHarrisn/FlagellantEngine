@@ -12,7 +12,7 @@ void Flag::Engine::run()
 		// process events
 		processInput();
 
-		update(1.0);
+		update();
 		// render the scene
 		render();
 	}
@@ -32,7 +32,7 @@ void Flag::Engine::processInput()
 }
 
 // this should run every frame of the game so time should always update here
-void Flag::Engine::update(float deltaTime)
+void Flag::Engine::update()
 {
 	// do stuff with the inputs and entites etc.
 	Time::update();

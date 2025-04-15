@@ -16,7 +16,7 @@ namespace Flag
 
     private:
         void processInput();
-        void update(float deltaTime);
+        void update();
         void render();
 
     private:
@@ -24,8 +24,8 @@ namespace Flag
         // PhysicsSystem m_physics;
         // Renderer m_renderer;
         // EntityManager m_entityManager;
-        /*World m_world;
-        Player m_player;*/
+        // World m_world;
+        // Player m_player;
     };
 }
 
